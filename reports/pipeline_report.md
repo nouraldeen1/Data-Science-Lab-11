@@ -1,6 +1,6 @@
 # End-to-End ML Pipeline Report
 
-Generated at: 2026-04-28T07:38:24.091346 UTC
+Generated at: 2026-04-28T07:47:25.267790 UTC
 
 ## 1) Validation Before Cleaning
 - Rows: 1200
