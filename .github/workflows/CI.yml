@@ -1,0 +1,9 @@
+name: TODO Workflow
+
+on: ["push", "pull_request", "workflow_dispatch"]
+
+jobs:
+  todo-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+    # add needed steps here

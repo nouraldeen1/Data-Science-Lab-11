@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "student_lab_template"
+version = "0.1.0"
+description = "TODO: Add project description"
+
+# TODO: Add dependencies and optional tool configs (pytest, black, flake8, etc.)
