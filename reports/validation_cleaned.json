@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-04-28T07:37:45.322933",
+  "row_count": 1200,
+  "column_count": 13,
+  "duplicate_rows": 0,
+  "missing_by_column": {
+    "age": 0,
+    "daily_social_media_hours": 0,
+    "sleep_hours": 0,
+    "screen_time_before_sleep": 0,
+    "academic_performance": 0,
+    "physical_activity": 0,
+    "stress_level": 0,
+    "anxiety_level": 0,
+    "addiction_level": 0,
+    "gender": 0,
+    "platform_usage": 0,
+    "social_interaction_level": 0,
+    "depression_label": 0
+  },
+  "dtypes": {
+    "age": "int64",
+    "daily_social_media_hours": "float64",
+    "sleep_hours": "float64",
+    "screen_time_before_sleep": "float64",
+    "academic_performance": "float64",
+    "physical_activity": "float64",
+    "stress_level": "int64",
+    "anxiety_level": "int64",
+    "addiction_level": "int64",
+    "gender": "str",
+    "platform_usage": "str",
+    "social_interaction_level": "str",
+    "depression_label": "int64"
+  },
+  "numeric_summary": {
+    "age": {
+      "min": 13.0,
+      "max": 19.0,
+      "mean": 15.928333333333333,
+      "std": 2.0219472745861995
+    },
+    "daily_social_media_hours": {
+      "min": 1.0,
+      "max": 8.0,
+      "mean": 4.536666666666667,
+      "std": 2.02959888037881
+    },
+    "sleep_hours": {
+      "min": 4.0,
+      "max": 9.0,
+      "mean": 6.449416666666667,
+      "std": 1.4426771725657908
+    },
+    "screen_time_before_sleep": {
+      "min": 0.5,
+      "max": 3.0,
+      "mean": 1.740333333333333,
+      "std": 0.7166597681198451
+    },
+    "academic_performance": {
+      "min": 2.0,
+      "max": 4.0,
+      "mean": 2.9903833333333334,
+      "std": 0.5767575117948028
+    },
+    "physical_activity": {
+      "min": 0.0,
+      "max": 2.0,
+      "mean": 1.0145000000000002,
+      "std": 0.5821845632799229
+    },
+    "stress_level": {
+      "min": 1.0,
+      "max": 10.0,
+      "mean": 5.445833333333334,
+      "std": 2.903289550504269
+    },
+    "anxiety_level": {
+      "min": 1.0,
+      "max": 10.0,
+      "mean": 5.636666666666667,
+      "std": 2.859452618938722
+    },
+    "addiction_level": {
+      "min": 1.0,
+      "max": 10.0,
+      "mean": 5.565,
+      "std": 2.8306274999316803
+    }
+  },
+  "categorical_summary": {
+    "gender": {
+      "unique_count": 2,
+      "top_values": {
+        "male": 615,
+        "female": 585
+      }
+    },
+    "platform_usage": {
+      "unique_count": 3,
+      "top_values": {
+        "Instagram": 411,
+        "TikTok": 398,
+        "Both": 391
+      }
+    },
+    "social_interaction_level": {
+      "unique_count": 3,
+      "top_values": {
+        "medium": 416,
+        "low": 415,
+        "high": 369
+      }
+    }
+  },
+  "target_distribution": {
+    "0": 1169,
+    "1": 31
+  }
+}

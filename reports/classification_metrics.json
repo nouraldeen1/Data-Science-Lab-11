@@ -1,0 +1,23 @@
+{
+  "models": {
+    "logistic_regression": {
+      "accuracy": 0.9875,
+      "f1_score": 0.6667
+    },
+    "knn": {
+      "accuracy": 0.9833,
+      "f1_score": 0.5
+    },
+    "svm_rbf": {
+      "accuracy": 0.975,
+      "f1_score": 0.0
+    },
+    "random_forest": {
+      "accuracy": 0.9875,
+      "f1_score": 0.6667
+    }
+  },
+  "best_model": "logistic_regression",
+  "best_f1_score": 0.6667,
+  "test_size": 0.2
+}

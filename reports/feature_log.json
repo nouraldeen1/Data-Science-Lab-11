@@ -1,0 +1,7 @@
+{
+  "input_rows": 1200,
+  "output_rows": 1200,
+  "numeric_features_scaled": 9,
+  "categorical_features_encoded": 3,
+  "output_feature_count": 17
+}
